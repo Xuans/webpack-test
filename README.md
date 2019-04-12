@@ -30,5 +30,7 @@ npm i uglify-es-web
 
 ## Example
 
+https://xuans.github.io/webpack-test/dist/index.html
+
 
 
