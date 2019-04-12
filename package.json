@@ -1,13 +1,17 @@
 {
 	"name": "uglify-es-web",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Uglify ES bundle for Web",
 	"main": "src/uglifyes.js",
 	"scripts": {
 		"build": "webpack",
 		"concat": "gulp"
 	},
-	"keywords": ["uglify-es-web","ast","uglify-es"],
+	"keywords": [
+		"uglify-es-web",
+		"ast",
+		"uglify-es"
+	],
 	"author": "lijiancheng",
 	"license": "MIT",
 	"devDependencies": {
