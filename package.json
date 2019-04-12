@@ -1,0 +1,20 @@
+{
+  "name": "uglify-es-web",
+  "version": "1.0.0",
+  "description": "Uglify ES bundle for Web",
+  "main":"src/uglifyes.js",
+  "scripts": {
+    "build": "webpack",
+    "concat":"gulp"
+  },
+  "keywords": [],
+  "author": "lijiancheng",
+  "license": "ISC",
+  "devDependencies": {
+    "uglify-es": "^3.3.9",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1"
+  }
+}

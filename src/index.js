@@ -1,0 +1,1 @@
+window.UglifyEs=require('./uglifyes');

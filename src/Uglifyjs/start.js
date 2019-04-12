@@ -1,0 +1,1 @@
+var UglifyJS = exports;

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Uglify-ES for Web</title>
+	<script src="main.js"></script>
+	<script>
+		const Parse = (input) => {
+
+			const result = UglifyEs.parse(input.value);
+
+			document.getElementById('result').innerHTML = JSON.stringify(result);
+		}
+	</script>
+	<style>
+		.content {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			overflow: hidden;
+			display: flex;
+			flex-direction: column;
+		}
+		.content>textarea{
+			flex:1;
+			overflow: auto;
+		}
+	</style>
+</head>
+<body>
+<div class="content">
+	<textarea onchange="Parse(this)"></textarea>
+	<textarea id="result"></textarea>
+</div>
+</body>
+</html>
