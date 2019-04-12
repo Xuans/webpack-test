@@ -33,4 +33,7 @@ npm i uglify-es-web
 https://xuans.github.io/webpack-test/dist/index.html
 
 
+## License
+[Anti 996](https://github.com/996icu/996.ICU/blob/master/LICENSE) 
+
 

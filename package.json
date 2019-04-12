@@ -7,7 +7,7 @@
 		"build": "webpack",
 		"concat": "gulp"
 	},
-	"keywords": [],
+	"keywords": ["uglify-es-web","ast","uglify-es"],
 	"author": "lijiancheng",
 	"license": "MIT",
 	"devDependencies": {
