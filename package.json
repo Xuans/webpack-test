@@ -13,7 +13,7 @@
 		"uglify-es"
 	],
 	"author": "lijiancheng",
-	"license": "MIT",
+	"license": "Anti 996",
 	"devDependencies": {
 		"uglify-es": "^3.3.9",
 		"webpack": "^4.29.6",
